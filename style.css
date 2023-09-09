@@ -6,7 +6,6 @@ body, html {
 body {
   display: flex;
   flex-direction: column;
-  font-family: 'Helvetica, Arial, sans-serif';
   color: #E0E0E0;
   background-color: #121212;
 }
@@ -18,17 +17,20 @@ header, main, footer {
 
 header {
   flex: 1;
+  font-family: Helvetica, sans-serif;
 }
 
 main {
-  flex: 2;
+  flex: 10;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: serif;
 }
 
 footer {
   flex: 1;
+  font-family: Helvetica, sans-serif;
 }
 
 header h2 {
@@ -42,12 +44,13 @@ main h1 {
   font-style: italic;
 }
 
-footer p {
-  margin-bottom: 10px;
+footer p a {
+  color: #E0E0E0;
+  text-decoration: none;
 }
 
 footer nav {
-  margin-bottom: 20px;
+  
 }
 
 footer nav a {
